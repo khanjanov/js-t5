@@ -60,6 +60,7 @@
 // nPrimeNum(a);
 
 //! array even count
+//* method1
 // let a = prompt("how many numbers will you enter");
 // arr = [];
 // let counter = 0;
@@ -77,6 +78,19 @@
 //   }
 // }
 // checkEven(arr);
+
+//* method2
+// let arr = prompt("enter numbers with spaces").split(" ");
+// function countEvensAndOdds(arr) {
+//   let odds = arr.filter((arr) => arr % 2 !== 0);
+//   console.log(odds);
+//   let evens = arr.filter((arr) => arr % 2 == 0);
+//   console.log(evens);
+//   let oddCount = odds.length;
+//   let evencount = evens.length;
+//   console.log(`Massivdə ${oddCount} tək və ${evencount} cüt ədəd var`);
+// }
+// countEvensAndOdds(arr);
 
 //! sum of array's odd numbers
 // let a = prompt("how many numbers will you enter");
