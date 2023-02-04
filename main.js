@@ -99,6 +99,7 @@
 // console.log(findLength(a));
 
 //! find the word in array that starts with "a"
+//* method1
 // let arr = prompt("enter words with spaces").toLowerCase().split(" ");
 // function startsWithA() {
 //   for (let i = 0; i < arr.length; i++) {
@@ -108,6 +109,13 @@
 //   }
 // }
 // startsWithA();
+
+//* method2
+// let arr = prompt("enter words with spaces").toLowerCase().split(" ");
+// let falan1 = arr.filter((item) => {
+//   return item[0] === "a";
+// });
+// console.log(falan1);
 
 //! sade vuruq
 let a = prompt("enter a number");
