@@ -112,12 +112,15 @@
 //! sade vuruq
 let a = prompt("enter a number");
 arr = [];
-for (let i = 2; i <= a; ) {
-  if (a % i == 0) {
-    arr.push(i);
-    a /= i;
-  } else {
-    i++;
+function sadeVuruq() {
+  for (let i = 2; i <= a; ) {
+    if (a % i == 0) {
+      arr.push(i);
+      a /= i;
+    } else {
+      i++;
+    }
   }
+  console.log(`sade vuruqlar ${arr}`);
 }
-console.log(`sade vuruqlar ${arr}`);
+sadeVuruq();
